@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_banner"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_below="@id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bantuan"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Bantuan" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Tentang" />
+        <item
+            android:id="@+id/nav_applain"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="App Lain" />
+        <item
+            android:id="@+id/nav_rateapp"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Rate App" />
+    </group>
+
+</menu>
